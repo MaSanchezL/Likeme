@@ -1,0 +1,23 @@
+# Directorios de dependencias de Node
+node_modules/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.DS_Store
+
+# Directorios de proyectos (frontend y backend)
+backend/node_modules/
+frontend/node_modules/
+
+# Archivos de build de Vite (frontend)
+frontend/dist/
+
+# Archivos de Vite específicos del backend (si los hubiera)
+backend/dist/ 
+
+# Opcional: Ignorar registros y caché de npm (si no están ya ignorados)
+*.log
+.npm/
